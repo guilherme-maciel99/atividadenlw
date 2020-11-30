@@ -7,7 +7,7 @@ const map = L.map('mapid').setView([-29.937658,-51.0055926], 15);
 
 
 const icon = L.icon({
-    iconUrl: "./public/images/map-marker.svg",
+    iconUrl: "map-marker.svg",
     iconSize: [58, 68],
     iconAnchor:[29, 68],
     popupAnchor:[170, 2]
@@ -18,7 +18,7 @@ const popup = L.popup({
     className: 'map-popup',
     winWidth:240,
     winHeight:240
-}).setContent('Lar das meninas <a href="orphanage.html?id=1"class="choose-orphanage"> <img src="./public/images/arrow-white.svg"> </a>')
+}).setContent('Lar das meninas <a href="orphanage.html?id=1"class="choose-orphanage"> <img src="arrow-white.svg"> </a>')
 
 
  L
