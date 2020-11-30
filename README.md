@@ -1,0 +1,2 @@
+# atividadenlw
+Síncrona 2
